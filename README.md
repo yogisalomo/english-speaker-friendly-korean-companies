@@ -16,5 +16,6 @@ If there's any mistake in the data please let me know or make a PR to fix it!
 - [Sibelhealth](https://www.sibelhealth.com/), IoT & Data in Health Industry, English as main language, [LinkedIn](https://www.linkedin.com/company/sibel-health/)
 - [Fruits Family](https://fruitsfamily.com/), Fashion, English as main language, [LinkedIn](https://www.linkedin.com/company/fruitsfamily/)
 - [Angelswing](https://angelswing.io/), Drone Data Platform, English as main language, [LinkedIn](https://www.linkedin.com/company/angelswing/)
+- [Seoul Robotics](https://www.seoulrobotics.org/), 3D perception platform, English as main language, accepts English resume only, [LinkedIn](https://www.linkedin.com/company/seoul-robotics/), [Career Page](https://www.seoulrobotics.org/careers)
 
 Feel free to add more data based on your knowledge and/or experience. Let's empower each other as international software engineers in Korea!
