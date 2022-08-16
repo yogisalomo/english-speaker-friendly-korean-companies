@@ -20,5 +20,6 @@ If there's any mistake in the data please let me know or make a PR to fix it!
 - [Lawfully](https://lawfully.com/), LegalTech, English as main language, [LinkedIn](https://www.linkedin.com/company/lawfully/)
 - [RNA Analytics Limited](https://www.rnaanalytics.com/), Finance, English as main language, [LinkedIn](https://www.linkedin.com/company/rna-analytics/)
 - [Krafton](https://krafton.com/en/), Gaming, accepts non-Korean speaker & have translators for meetings/interviews, [LinkedIn](https://kr.linkedin.com/company/krafton-inc)
+- [Radisen](https://radisentech.com/), Healthcare & AI, accepts non-Korean speaker
 
 Feel free to add more data based on your knowledge and/or experience. Let's empower each other as international software engineers in Korea!
