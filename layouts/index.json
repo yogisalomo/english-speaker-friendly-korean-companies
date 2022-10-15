@@ -1,0 +1,11 @@
+[
+{{- with $.Site.GetPage "/posts" }}
+    {{- range $index, $data := .Pages }}
+    {{- if $index }},{{ end }}
+    {
+    "title": "{{ $data.Title  }}",
+    "url": "{{ $data.RelPermalink }}"
+    }
+    {{- end }}
+{{- end }}
+]

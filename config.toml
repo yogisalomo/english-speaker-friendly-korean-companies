@@ -1,0 +1,6 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Korean companies that use English for work'
+theme = "coyote"
+[outputs]
+    home = ["HTML", "JSON"]
