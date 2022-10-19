@@ -6,7 +6,7 @@ They might or might not have any job opening at the time of viewing, please do t
 ### Environment
 
 - Hugo Static Website (Coyote Theme)
-- Deployment URL: https://english-speaking-korean.company
+- Deployment URL: https://www.english-speaking-korean.company
 
 ### How to Contribute
 
