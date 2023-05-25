@@ -17,3 +17,8 @@ jobs:
       - name: Build Hugo
         run: |
           hugo --minify
+      - name: Deploy to S3
+        run: |
+          echo "URL = ${{ secrets.S3_URL }}" >> config.toml
+          echo "cloudFrontDistributionID = ${{ secrets.CF_DISTRIBUTION_ID }}" >> config.toml
+          hugo deploy
