@@ -19,6 +19,5 @@ jobs:
           hugo --minify
       - name: Deploy to S3
         run: |
-          echo "URL = ${{ secrets.S3_URL }}" >> config.toml
-          echo "cloudFrontDistributionID = ${{ secrets.CF_DISTRIBUTION_ID }}" >> config.toml
+          echo "\nURL = ${{ secrets.S3_URL }}\ncloudFrontDistributionID = ${{ secrets.CF_DISTRIBUTION_ID }}\n" >> config.toml
           hugo deploy
