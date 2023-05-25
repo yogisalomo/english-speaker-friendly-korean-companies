@@ -21,6 +21,7 @@ jobs:
         run: |
           echo >> config.toml
           echo "URL = ${{ secrets.S3_URL }}" >> config.toml
+          echo >> config.toml
           echo "cloudFrontDistributionID = ${{ secrets.CF_DISTRIBUTION_ID }}" >> config.toml
           echo >> config.toml
           hugo deploy
