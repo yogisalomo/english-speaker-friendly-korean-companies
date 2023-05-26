@@ -1,0 +1,35 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build_deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write # This is required for requesting the JWT
+      contents: read # This is required for actions/checkout
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true # Fetch Hugo themes (true OR recursive)
+      - name: configure aws credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          role-to-assume: arn:aws:iam::808951188063:role/english-korean-companies-deploy
+          role-session-name: deployWebsite
+          aws-region: ap-northeast-2
+      - name: Setup Hugo
+        run: |
+          sudo apt install hugo
+      - name: Build Hugo
+        run: |
+          hugo --minify
+      - name: Deploy to S3
+        run: |
+          echo >> config.toml
+          echo "URL = \"${{ secrets.S3_URL }}\"" >> config.toml
+          echo >> config.toml
+          echo "cloudFrontDistributionID = \"${{ secrets.CF_DISTRIBUTION_ID }}\"" >> config.toml
+          echo >> config.toml
+          hugo deploy
