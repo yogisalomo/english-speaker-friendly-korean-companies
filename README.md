@@ -27,7 +27,6 @@ Feel free to add more data based on your knowledge and/or experience. Let's empo
 
 ### TODO
 
-- Github Action for CI/CD (Hugo Deployment)
 - Automatically Append Tags from other attributes of JSON
 - Add Hiring status
 - Add Tech stack of the company as attribute
