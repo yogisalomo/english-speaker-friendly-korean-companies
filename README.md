@@ -23,13 +23,3 @@ They might or might not have any job opening at the time of viewing, please do t
 3. Create a PR to the `main` branch
 
 Feel free to add more data based on your knowledge and/or experience. Let's empower each other as international software engineers in Korea!
-
-
-### TODO
-
-- Automatically Append Tags from other attributes of JSON
-- Add Hiring status
-- Add Tech stack of the company as attribute
-- Include other attributes (especially fields) for search criteria (so far only title is searchable)
-- SEO
-- UI improvement (idea please)
